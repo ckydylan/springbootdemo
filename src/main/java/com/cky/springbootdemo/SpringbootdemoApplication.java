@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author dylan
  */
 @SpringBootApplication
+//强制使用cglib代理
+//@EnableAspectJAutoProxy(proxyTargetClass = true)
 public class SpringbootdemoApplication {
 
     public static void main(String[] args) {
