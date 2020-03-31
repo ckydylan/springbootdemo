@@ -89,7 +89,7 @@ public class MessageController {
 
     @GetMapping("/exception")
     public String exception() {
-        int i = 1 / 0;
+//        int i = 1 / 0;
         return "exception";
     }
 
